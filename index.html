@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template_js</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"> -->
+</head>
+
+<body>
+  <!-- start settings box -->
+  <div class="settings-box">
+    <div class="toggle-icon">
+      <i class="fa-solid fa-gear"></i>
+    </div>
+    <div class="option-box">
+      <h4>colors</h4>
+
+      <ul>
+        <li class="active" data-color="#e67d05"></li>
+        <li data-color="#f44336"></li>
+        <li data-color="#7c1480"></li>
+        <li data-color="#009688"></li>
+        <li data-color="#673ab7"></li>
+      </ul>
+    </div>
+    <div class="option-box">
+      <h4>change background</h4>
+      <div class="option-back">
+        <span class="yas active" data-background="yas">Yas</span>
+        <span class="no" data-background="no">No</span>
+      </div>
+    </div>
+    <div class="option-box">
+      <h4>option bullet</h4>
+      <div class="option-bullets">
+        <span class="show active" data-show="show">Yas</span>
+        <span class="hide" data-show="hide">No</span>
+      </div>
+    </div>
+    <button class="reset">reset</button>
+  </div>
+  <!-- end settings box -->
+  <!-- start bullets -->
+  <div class="nav-bullets">
+    <div class="bullet" data-section=".about-us">
+      <div class="tooltip">about us</div>
+    </div>
+    <div class="bullet" data-section=".the-progress">
+      <div class="tooltip">our skills</div>
+    </div>
+    <div class="bullet" data-section=".img">
+      <div class="tooltip">slider</div>
+    </div>
+    <div class="bullet" data-section=".timeline">
+      <div class="tooltip">timeline</div>
+    </div>
+  </div>
+  <!-- end bullets -->
+  <!-- start landing page -->
+  <div id="landing" class="landing-page">
+    <div class="overly"></div>
+    <div class="container">
+      <div class="header">
+        <div class="logo">spacial</div>
+        <ul class="links">
+          <li><a class="active" data-section=".about-us">AboutUs</a></li>
+          <li><a href="#" data-section=".the-progress">OurSkills</a></li>
+          <li><a href="#" data-section=".img">Slider</a></li>
+          <li><a href="#" data-section=".timeline">TimeLine</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text">
+      <h1><span>hello</span> world</h1>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic aliquid veniam, incidunt, mollitia
+        voluptates sunt ducimus iste expedita rerum itaque natus error velit et!</P>
+    </div>
+  </div>
+  <!-- end landing page -->
+  <!-- start about us -->
+  <div class="container">
+    <div id="about" class="about-us">
+      <div class="about-info">
+        <h1>about us</h1>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas tempore expedita maiores, nobis nulla odio
+          totam eos nisi architecto similique cumque officia iure neque? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloremque aliquid alias nam rerum qui cumque, tempore quisquam omnis necessitatibus saepe
+          aspernatur maxime at sed? Sunt?</span>
+      </div>
+      <div class="about-img">
+        <img src="image/img_00.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- end about us -->
+  <!-- start progress -->
+  <div id="skills" class="the-progress">
+    <div class="container">
+      <h1>our skills</h1>
+      <div class="progress">
+        <h2>html</h2>
+        <span>
+          <div class="prog" data-progress="50%"></div>
+        </span>
+      </div>
+      <div class="progress">
+        <h2>css</h2>
+        <span>
+          <div class="prog" data-progress="60%"></div>
+        </span>
+      </div>
+      <div class="progress">
+        <h2>js</h2>
+        <span>
+          <div class="prog" data-progress="70%"></div>
+        </span>
+      </div>
+      <div class="progress">
+        <h2>c++</h2>
+        <span>
+          <div class="prog" data-progress="10%"></div>
+        </span>
+      </div>
+      <div class="progress">
+        <h2>python</h2>
+        <span>
+          <div class="prog" data-progress="40%"></div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- end progress -->
+  <!-- start gallery -->
+  <div id="slider" class="img">
+    <div class="container">
+      <h1>img slider</h1>
+      <div class="content">
+        <img src="image/imj_1.jpg" alt="img-1">
+        <img src="image/imj_2.jpg" alt="img-2">
+        <img src="image/imj_3.jpg" alt="img-3">
+        <img src="image/imj_4.jpg" alt="img-4">
+        <img src="image/imj_5.jpg" alt="img-5">
+        <img src="image/imj_6.jpg" alt="img-6">
+        <img src="image/imj_7.jpg" alt="">
+        <img src="image/imj_8.jpg" alt="">
+        <img src="image/imj_9.jpg" alt="">
+        <img src="image/imj_10.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- end gallery -->
+  <!-- start timeline -->
+  <div id="timeline" class="timeline">
+    <div class="container">
+      <div class="timeline-content">
+
+        <div class="year">2023</div>
+
+        <div class="left">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi modi quasi ratione officiis ipsam alias,
+              ipsa quos deserunt. Natus molestias reiciendis illum quos libero modi sit voluptatum ab? Rerum, modi.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right ">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi modi quasi ratione officiis ipsam alias,
+              ipsa quos deserunt. Natus molestias reiciendis illum quos libero modi sit voluptatum ab? Rerum, modi.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2022</div>
+
+        <div class="left">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi modi quasi ratione officiis ipsam alias,
+              ipsa quos deserunt. Natus molestias reiciendis illum quos libero modi sit voluptatum ab? Rerum, modi.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right ">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi modi quasi ratione officiis ipsam alias,
+              ipsa quos deserunt. Natus molestias reiciendis illum quos libero modi sit voluptatum ab? Rerum, modi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end timeline -->
+  <!-- stat contact us -->
+  <div class="contact-us">
+    <h2>contact us</h2>
+    <div class="container">
+      <div class="contact">
+        <div class="left">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Email Address">
+          <input type="text" placeholder="hi">
+          <input type="password" placeholder="Your password">
+        </div>
+        <div class="right">
+          <textarea name="Input text"></textarea>
+          <input type="submit">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- end contact us -->
+  <!-- start footer -->
+  <h2 class="footer">we love the hoss</h2>
+  <!-- end footer -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
